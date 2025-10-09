@@ -10,12 +10,13 @@ const geistSans = Geist({
 const playfair = Playfair({
   variable: "--font-playfair",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "700"],
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
@@ -73,7 +74,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${playfair.variable} ${inter.variable} antialiased`}>{children}</body>
+      <body
+        className={`${geistSans.variable} ${playfair.variable} ${inter.variable} antialiased max-w-[1440px] m-auto overflow-x-hidden`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
