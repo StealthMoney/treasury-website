@@ -11,7 +11,7 @@ export default function Footer() {
           </p>
           <p className="text-[16px] text-[#C7C7C7] leading-[36px] max-w-4xl">
             Stealth Treasury by Stealth Money is a registered technology company
-            incorporated in Delaware, US. We do not offer tax services to
+            incorporated in Delaware, US. We do not offer our services to
             clients in the United States of America, the United Kingdom, or the
             European Union. As of 2025, Stealth Treasury is not a registered
             investment advisor.
@@ -23,19 +23,20 @@ export default function Footer() {
           {/* Navigation Links */}
           <div className="flex gap-8 font-neuehas">
             <Link
-              href="/solutions"
+              href="#"
               className="text-sm text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Solutions
             </Link>
             <Link
-              href="/about"
+              href="#"
               className="text-sm text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               About
             </Link>
             <Link
-              href="/resources"
+              href="https://education.stealth.money/"
+              target="_blank"
               className="text-sm text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Resources
@@ -45,7 +46,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-4">
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/stealthmoney_"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-colors text-black hover:bg-white/20"
@@ -57,7 +58,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/stealthmoney"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-colors text-black hover:bg-white/20"
@@ -80,13 +81,15 @@ export default function Footer() {
 
           <div className="flex gap-4">
             <Link
-              href="/terms"
+              href="https://www.stealth.money/terms-of-service"
+              target="_self"
               className="text-xs text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Terms & Service
             </Link>
             <Link
-              href="/privacy"
+              href="https://www.stealth.money/privacy-policy"
+              target="_self"
               className="text-xs text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Privacy Policy
