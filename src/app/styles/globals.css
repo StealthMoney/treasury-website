@@ -98,7 +98,63 @@
 
 @font-face {
   font-family: "Playfair", serif;
-  src: url("/public/fonts/playfair/Playfair_144pt-Bold.ttf") format("truetype");
+  src: url("/fonts/playfair/Playfair_144pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayBold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -119,6 +175,7 @@
 
   --font-family-sans: "Geist", sans-serif;
   --font-family-serif: "Playfair", serif;
+  --font-family-neuehas: "Neuehas", sans-serif;
   --font-family-inter: var(--font-inter), sans-serif;
 }
 
@@ -128,6 +185,7 @@
   --font-sans: var(--font-family-sans);
   --font-inter: var(--font-family-inter);
   --font-serif: var(--font-family-serif);
+  --font-neuehas: var(--font-family-neuehas);
 }
 
 @media (prefers-color-scheme: dark) {
