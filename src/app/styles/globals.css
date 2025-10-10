@@ -1,5 +1,165 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist", sans-serif;
+  src: url("/fonts/geist/Geist-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Playfair Display */
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  src: url("/fonts/playfair/Playfair_144pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neuehas", sans-serif;
+  src: url("/fonts/neuehas/NeueHaasDisplayBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,9 +170,12 @@
   --color-gray: #222222;
   --color-primary: #f7931a;
   --color-accent: #fde3c4;
+  --color-light: #f0f0f0;
+  --color-primary-darker: #271601;
 
-  --font-family-sans: var(--font-geist-sans), sans-serif;
-  --font-family-serif: var(--font-playfair), serif;
+  --font-family-sans: "Geist", sans-serif;
+  --font-family-serif: "Playfair", serif;
+  --font-family-neuehas: "Neuehas", sans-serif;
   --font-family-inter: var(--font-inter), sans-serif;
 }
 
@@ -22,7 +185,7 @@
   --font-sans: var(--font-family-sans);
   --font-inter: var(--font-family-inter);
   --font-serif: var(--font-family-serif);
-
+  --font-neuehas: var(--font-family-neuehas);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,5 +198,52 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter)
+  font-family: var(--font-inter);
+}
+
+.font-serif-custom {
+  font-family: var(--font-serif);
+}
+
+.background-image {
+  background: url("/images/hero.svg") no-repeat center/cover;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.bg14 {
+  background: url("/images/14.svg") no-repeat;
+}
+
+.bg15 {
+  background: url("/images/15.svg");
+}
+
+.my-scroll-container {
+  overflow-y: auto !important;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE and Edge */
+}
+
+.my-scroll-container::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Opera */
+}
+
+@media screen and (min-width: 1024px) {
+  .background-image {
+    min-height: 100vh;
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .background-image {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .background-image {
+    min-height: 120vh;
+  }
 }
