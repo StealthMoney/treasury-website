@@ -1,7 +1,7 @@
 export default function BitcoinFocusedSection() {
   return (
     <section className="w-full flex justify-center items-center my-[100px]">
-      <section className="bg-[#adadad] max-w-[85%] rounded-4xl">
+      <section className="bg-[#E0E3DE] max-w-[85%] rounded-4xl">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 bg14 rounded-4xl flex justify-center flex-col items-center">
           <p className="text-[var(--color-primary)] max-w-2/4 md:text-[16px] text-[12px] font-semibold tracking-wider uppercase mb-6">
             Stealth Treasury is Bitcoin Focused
