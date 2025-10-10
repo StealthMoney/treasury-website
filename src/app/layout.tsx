@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import { Geist, Playfair, Inter } from "next/font/google";
 import "./styles/globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const playfair = Playfair({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-});
+// const playfair = Playfair({
+//   variable: "--font-playfair",
+//   subsets: ["latin"],
+//   weight: ["400", "500", "700"],
+// });
 
 const inter = Inter({
   variable: "--font-inter",
@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${playfair.variable} ${inter.variable} antialiased max-w-[1440px] m-auto overflow-x-hidden`}
+        className={`${inter.variable} antialiased max-w-[1440px] m-auto !overflow-x-hidden my-scroll-container`}
       >
         {children}
       </body>

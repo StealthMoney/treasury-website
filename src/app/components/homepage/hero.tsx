@@ -4,15 +4,15 @@ import Button from "../reusables/button";
 export default function Hero() {
   return (
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
-      <div className="md:w-2/4 flex flex-col justify-center gap-[20px] text-center">
+      <div className="md:w-[70%] flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
-          <h1 className="leading-[72px] font-bold text-[48px] text-[var(--color-background)] font-serif">
+          <h1 className="leading-[72px] font-bold text-[48px] text-[var(--color-background)] !font-serif">
             Every smart company will hold Bitcoin. Stealth Treasury simplifies
             this.
           </h1>
         </div>
-        <div>
-          <p className="leadin-[36px] text-[18px] text-[var(--color-background)]">
+        <div className="text-center flex flex-col items-center justify-center w-full">
+          <p className="leadin-[36px] text-[18px] text-[var(--color-background)] md:max-w-[90%]">
             Stay ahead of the curve. Stealth Treasury empowers companies to
             protect value and grow with Bitcoin, the world&apos;s strongest
             asset.

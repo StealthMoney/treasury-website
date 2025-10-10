@@ -31,7 +31,7 @@ export default function WhyBitcoinSection() {
   return (
     <section className="py-16 md:py-24 bg-[var(--color-light)]">
       <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-16 font-serif">
           Why Bitcoin Only
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -49,7 +49,7 @@ export default function WhyBitcoinSection() {
                   className="object-contain w-16 h-16 sm:w-20 sm:h-20"
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 font-serif">
                 {feature.title}
               </h3>
               <p className="text-gray-700 leading-relaxed">

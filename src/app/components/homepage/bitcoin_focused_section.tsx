@@ -6,7 +6,7 @@ export default function BitcoinFocusedSection() {
           <p className="text-[var(--color-primary)] max-w-2/4 md:text-[16px] text-[12px] font-semibold tracking-wider uppercase mb-6">
             Stealth Treasury is Bitcoin Focused
           </p>
-          <h2 className="text-2xl md:text-[32px] text-[24px] font-bold text-gray-900 mb-8 leading-tight max-w-3/4">
+          <h2 className="text-2xl md:text-[32px] text-[24px] font-bold text-gray-900 mb-8 leading-tight max-w-3/4 font-serif">
             Bitcoin has evolved into a proven financial asset, with governments
             accumulating it for their strategic reserves, leading sovereign
             wealth and pension funds owning it, and major companies securing it

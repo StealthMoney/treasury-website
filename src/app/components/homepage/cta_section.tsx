@@ -6,8 +6,8 @@ export default function CTASection() {
       <section className="bg-[#693c04] rounded-4xl overflow-y-hidden w-[85%]">
         <section className="bg15 w-full h-full overflow-y-hidden">
           <div className=" mx-auto rounded-4xl px-8 text-center relative overflow-hidden md:py-12 py-6">
-            <div className="relative z-10 max-w-3xl mx-auto">
-              <h2 className="text-[24px] md:text-[32px] lg:text-5xl font-bold text-white mb-6 leading-tight">
+            <div className="relative z-10 max-w-[85%] mx-auto">
+              <h2 className="text-[24px] md:text-[32px] lg:text-5xl font-bold text-white mb-6 leading-tight font-serif">
                 Join the forward-thinking companies globally who have a bitcoin
                 treasury reserve.
               </h2>

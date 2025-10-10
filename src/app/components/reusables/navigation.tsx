@@ -63,7 +63,7 @@ export default function Navigation() {
               <Button
                 text="Talk to us"
                 type="button"
-                className={` text-white px-6 py-2.5 border border-white font-medium transition-colors ${"bg-[var(--color-primary)]"}`}
+                className={` text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
               />
             </div>
 

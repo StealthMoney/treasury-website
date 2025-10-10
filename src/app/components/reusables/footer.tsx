@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-primary-darker)] py-12 md:py-16">
+    <footer className="bg-[var(--color-primary-darker)] py-12 md:py-16 rounded-t-4xl font-sans!">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="mb-12">
@@ -73,7 +73,9 @@ export default function Footer() {
         {/* Legal Links */}
         <div className="flex flex-wrap justify-between gap-6 mt-8 pt-8 border-t border-white/10">
           <div>
-            <p className="text-xs text-[#C7C7C7]">© 2025 Stealth Treasury</p>
+            <p className="text-xs text-[#C7C7C7]">
+              © {new Date().getFullYear()} Stealth Treasury
+            </p>
           </div>
 
           <div className="flex gap-4">
