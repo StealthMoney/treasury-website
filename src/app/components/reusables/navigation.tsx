@@ -26,7 +26,7 @@ export default function Navigation() {
   const navLinks = [
     { href: "#", label: "Solutions" },
     { href: "#", label: "About" },
-    { href: "#", label: "Resources" },
+    { href: "https://education.stealth.money/", label: "Resources" },
   ];
 
   const handleNavClick = () => {
@@ -52,6 +52,11 @@ export default function Navigation() {
                 <Link
                   key={index}
                   href={link.href}
+                  target={
+                    link.href === "https://education.stealth.money/"
+                      ? "_blank"
+                      : "_self"
+                  }
                   className="text-white hover:text-white/80 transition-colors text-sm font-medium"
                 >
                   {link.label}
@@ -63,7 +68,7 @@ export default function Navigation() {
               <Button
                 text="Talk to us"
                 type="button"
-                className={` text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
+                className={`text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
               />
             </div>
 
