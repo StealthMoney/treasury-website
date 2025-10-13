@@ -1,4 +1,6 @@
+"use client";
 import Button from "../reusables/button";
+import { consultationRedirect } from "../reusables/functions";
 
 export default function CTASection() {
   return (
@@ -16,6 +18,7 @@ export default function CTASection() {
                 inflation and allows long-term value.
               </p>
               <Button
+                onClick={() => consultationRedirect()}
                 text="Book a consultation"
                 type="button"
                 className="bg-[var(--color-primary)] text-white px-8 py-3.5 border cursor-pointer border-white font-medium transition-colors text-lg md:w-auto w-full"
