@@ -10,11 +10,11 @@ export default function Footer() {
             Stealth Treasury is a Bitcoin-only service provider
           </p>
           <p className="text-[16px] text-[#C7C7C7] leading-[36px] max-w-4xl">
-            Stealth Treasury by Stealth Money is a registered technology company
+            Stealth Treasury by Stealth Money is a financial technology company
             incorporated in Delaware, US. We do not offer our services to
-            clients in the United States of America, the United Kingdom, or the
-            European Union. As of 2025, Stealth Treasury is not a registered
-            investment advisor.
+            clients in the United States of America, the United Kingdom, the
+            European Union (including the European Economic Area), or other
+            prohibited and sanctioned jurisdictions.
           </p>
         </div>
 
@@ -46,11 +46,11 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-4">
             <a
-              href="https://twitter.com/stealthmoney_"
+              href="https://x.com/stealthtreasury"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-colors text-black hover:bg-white/20"
-              aria-label="Twitter"
+              aria-label="X (formerly-twitter)"
             >
               <svg className="w-5 h-5" fill="#ffffff" viewBox="0 0 24 24">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
