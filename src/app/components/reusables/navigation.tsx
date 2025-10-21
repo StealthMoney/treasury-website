@@ -1,10 +1,10 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Button from "./button";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { consultationRedirect } from "./functions";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,7 +40,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/stealth_treasury_logo.svg"
+                src="/Stealth Treasury.svg"
                 alt="logo"
                 width={100}
                 height={100}
@@ -66,6 +66,7 @@ export default function Navigation() {
 
             <div className="hidden md:block">
               <Button
+                onClick={() => consultationRedirect()}
                 text="Talk to us"
                 type="button"
                 className={`text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
@@ -135,6 +136,7 @@ export default function Navigation() {
 
             <div className="mt-8">
               <Button
+                onClick={() => consultationRedirect()}
                 text="Talk to us"
                 type="button"
                 className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-white font-medium transition-colors`}

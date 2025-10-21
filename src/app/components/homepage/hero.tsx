@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Button from "../reusables/button";
+import { consultationRedirect } from "../reusables/functions";
 
 export default function Hero() {
   return (
@@ -21,6 +23,7 @@ export default function Hero() {
 
         <div className="w-full">
           <Button
+            onClick={() => consultationRedirect()}
             text="Book a Consultation"
             className="p-4 text-[var(--color-background)] border border-white bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
             type="button"
