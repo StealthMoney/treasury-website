@@ -206,7 +206,7 @@ body {
 }
 
 .background-image {
-  background: url("/images/hero.svg") no-repeat center/cover;
+  background: url("/images/hero.webp") no-repeat center/cover;
   width: 100vw;
   min-height: 100vh;
 }
