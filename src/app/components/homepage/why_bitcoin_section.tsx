@@ -6,13 +6,13 @@ export default function WhyBitcoinSection() {
       icon: "/images/gold.svg",
       title: "Bitcoin is Digital Gold",
       description:
-        "Bitcoin combines the efficiency of the Internet. Unlike traditional commodities, it can be transferred globally in seconds, securely stored and easily divided into smaller units for everyday use.",
+        "Bitcoin is widely referred to as digital gold because it shares gold's essential characteristics as a scarce, non-sovereign store of value, making it the ideal asset for wealth preservation in the digital age.",
     },
     {
       icon: "/images/chart.svg",
       title: "Unmatched Liquidity",
       description:
-        "Bitcoin is the most liquid asset in the world — you can instantly buy, sell, or trade it across thousands of markets globally, 24/7, with no banking hours, giving you true freedom to move value anytime, anywhere.",
+        "Bitcoin is the most liquid asset in the world, it can be transferred globally in minutes. The Bitcoin network is secured by distributed proof-of-work (PoW) mining network, making it impossible to hack.",
     },
     {
       icon: "/images/lock.svg",
