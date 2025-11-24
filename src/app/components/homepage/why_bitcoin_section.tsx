@@ -6,7 +6,7 @@ export default function WhyBitcoinSection() {
       icon: "/images/gold.svg",
       title: "Bitcoin is Digital Gold",
       description:
-        "Bitcoin combines the efficiency of the Internet. Unlike traditional commodities, it can be transferred globally in seconds, securely stored and easily divided into smaller units for everyday use.",
+        "Bitcoin is widely referred to as digital gold because it shares gold's essential characteristics as a scarce, non-sovereign store of value, making it the ideal asset for wealth preservation in the digital age.",
     },
     {
       icon: "/images/chart.svg",
