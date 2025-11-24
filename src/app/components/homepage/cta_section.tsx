@@ -14,8 +14,8 @@ export default function CTASection() {
                 treasury reserve.
               </h2>
               <p className="md:text-[18px] text-[28px] text-white/90 mb-8 leading-relaxed">
-                Diversify your corporate treasury with an asset that withstands
-                inflation and allows long-term value.
+                Diversify your corporate treasury with an inflation-resistant
+                asset.
               </p>
               <Button
                 onClick={() => consultationRedirect()}

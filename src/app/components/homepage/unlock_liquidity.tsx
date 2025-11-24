@@ -9,14 +9,14 @@ export default function UnlockLiquiditySection() {
             <h2 className="text-[32px] md:text-[44px] lg:text-5xl font-bold text-[var(--color-dark)] mb-6 leading-tight font-serif">
               Unlock Liquidity with Your Bitcoin Treasury Reserve.
             </h2>
-            <p className="text-lg leading-relaxed text-[var(--color-gray)]">
+            <p className="text-[16px] md:text-[20px] leading-relaxed text-[var(--color-gray)]">
               Access capital while keeping your Bitcoin holdings intact.
             </p>
             <p className="text-[16px] md:text-[20px] text-[var(--color-gray)] leading-relaxed">
               With Bitcoin-collateralized loans, you can secure a line of credit
               against your treasury reserve, freeing up liquidity for business
-              operations, growth, or new opportunities — all without triggering a
-              taxable event or losing your upside exposure.
+              operations, growth, or new opportunities — all without triggering
+              a taxable event or losing your upside exposure.
             </p>
           </div>
 

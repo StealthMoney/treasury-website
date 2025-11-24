@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="mb-12">
-          <p className="text-[var(--color-primary)] text-[14px] md:text-[16px] font-semibold tracking-wider uppercase mb-4">
+          <p className="text-[var(--color-primary)] font-inter text-[14px] md:text-[16px] font-semibold tracking-wider uppercase mb-4">
             Stealth Treasury is a Bitcoin-only service provider
           </p>
           <p className="text-[16px] text-[#C7C7C7] leading-[36px] max-w-4xl">

@@ -12,7 +12,7 @@ export default function WhyBitcoinSection() {
       icon: "/images/chart.svg",
       title: "Unmatched Liquidity",
       description:
-        "Bitcoin is the most liquid asset in the world — you can instantly buy, sell, or trade it across thousands of markets globally, 24/7, with no banking hours, giving you true freedom to move value anytime, anywhere.",
+        "Bitcoin is the most liquid asset in the world, it can be transferred globally in minutes. The Bitcoin network is secured by distributed proof-of-work (PoW) mining network, making it impossible to hack.",
     },
     {
       icon: "/images/lock.svg",
