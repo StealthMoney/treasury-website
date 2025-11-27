@@ -6,11 +6,17 @@ import { consultationRedirect } from "../reusables/functions";
 export default function Hero() {
   return (
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
-      <div className="md:w-[70%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
+      <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
-          <h1 className="leading-[72px] font-bold text-[48px] text-[var(--color-background)] !font-serif">
-            Every smart company will hold Bitcoin. Stealth Treasury simplifies
-            this.
+          <h1 className="leading-[72px] font-bold text-[48px] text-white font-serif relative">
+            Every smart{" "}
+            <span className="text-animator text-[var(--color-primary)]">
+              <span className="text-animator__visible">company</span>
+              <span className="text-animator__invisible">startup</span>
+            </span>{" "}
+            <span className="ok">
+              will hold Bitcoin. Stealth Treasury simplifies this.
+            </span>
           </h1>
         </div>
         <div className="text-center flex flex-col items-center justify-center w-full">
