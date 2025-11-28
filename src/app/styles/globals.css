@@ -252,7 +252,6 @@ body {
 .my-scroll-container::-webkit-scrollbar {
   display: none !important; /* Chrome, Safari, Opera */
 }
-
 .text-animator {
   display: inline-block;
   position: relative;
@@ -266,7 +265,7 @@ body {
 }
 
 .text-animator__visible {
-  animation: slideOut 9s infinite;
+  animation: slideOut 3.3s infinite;
 }
 
 .text-animator__invisible {
@@ -279,36 +278,41 @@ body {
 }
 
 .text-animator__invisible--1 {
-  animation: slideIn 9s infinite;
+  animation: slideIn 3.3s infinite;
   animation-delay: 0s;
 }
 
 .text-animator__invisible--2 {
-  animation: slideIn 9s infinite;
-  animation-delay: 3s;
+  animation: slideIn 3.3s infinite;
+  animation-delay: 1.1s;
 }
 
 @keyframes slideOut {
-  0%, 30% {
+  0%,
+  30.3% {
     visibility: visible;
     transform: translateY(0);
   }
-  33.33%, 100% {
+  33.33%,
+  100% {
     visibility: hidden;
     transform: translateY(100%);
   }
 }
 
 @keyframes slideIn {
-  0%, 30% {
+  0%,
+  30.3% {
     top: -100%;
     visibility: hidden;
   }
-  33.33%, 63.33% {
+  33.33%,
+  63.63% {
     top: 0;
     visibility: visible;
   }
-  66.66%, 100% {
+  66.66%,
+  100% {
     top: 100%;
     visibility: hidden;
   }
