@@ -266,7 +266,7 @@ body {
 }
 
 .text-animator__visible {
-  animation: slideOut 6s infinite;
+  animation: slideOut 9s infinite;
 }
 
 .text-animator__invisible {
@@ -276,34 +276,39 @@ body {
   width: 100%;
   height: 100%;
   visibility: hidden;
-  animation: slideIn 6s infinite;
+}
+
+.text-animator__invisible--1 {
+  animation: slideIn 9s infinite;
+  animation-delay: 0s;
+}
+
+.text-animator__invisible--2 {
+  animation: slideIn 9s infinite;
+  animation-delay: 3s;
 }
 
 @keyframes slideOut {
-  0%,
-  16.66% {
+  0%, 30% {
     visibility: visible;
     transform: translateY(0);
   }
-  33.33%,
-  100% {
+  33.33%, 100% {
     visibility: hidden;
     transform: translateY(100%);
   }
 }
 
 @keyframes slideIn {
-  0%,
-  16.66% {
+  0%, 30% {
     top: -100%;
     visibility: hidden;
   }
-  33.33%,
-  83.33% {
+  33.33%, 63.33% {
     top: 0;
     visibility: visible;
   }
-  100% {
+  66.66%, 100% {
     top: 100%;
     visibility: hidden;
   }

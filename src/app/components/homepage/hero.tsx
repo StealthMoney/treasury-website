@@ -12,7 +12,12 @@ export default function Hero() {
             Every smart{" "}
             <span className="text-animator text-[var(--color-primary)]">
               <span className="text-animator__visible">company</span>
-              <span className="text-animator__invisible">startup</span>
+              <span className="text-animator__invisible text-animator__invisible--1">
+                startup
+              </span>
+              <span className="text-animator__invisible text-animator__invisible--2">
+                business
+              </span>
             </span>{" "}
             <span className="ok">
               will hold Bitcoin. Stealth Treasury simplifies this.
