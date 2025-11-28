@@ -252,22 +252,120 @@ body {
 .my-scroll-container::-webkit-scrollbar {
   display: none !important; /* Chrome, Safari, Opera */
 }
+.text-animator {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 1.2em;
+}
+
+.text-animator > * {
+  display: inline-block;
+  transition: all 0.4s ease;
+}
+
+.text-animator__visible {
+  animation: slideOut 3.3s infinite;
+}
+
+.text-animator__invisible {
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.text-animator__invisible--1 {
+  animation: slideIn 3.3s infinite;
+  animation-delay: 0s;
+}
+
+.text-animator__invisible--2 {
+  animation: slideIn 3.3s infinite;
+  animation-delay: 1.1s;
+}
+
+@keyframes slideOut {
+  0%,
+  30.3% {
+    visibility: visible;
+    transform: translateY(0);
+  }
+  33.33%,
+  100% {
+    visibility: hidden;
+    transform: translateY(100%);
+  }
+}
+
+@keyframes slideIn {
+  0%,
+  30.3% {
+    top: -100%;
+    visibility: hidden;
+  }
+  33.33%,
+  63.63% {
+    top: 0;
+    visibility: visible;
+  }
+  66.66%,
+  100% {
+    top: 100%;
+    visibility: hidden;
+  }
+}
 
 @media screen and (min-width: 1024px) {
+  .text-animator {
+    position: absolute !important;
+    top: -2%;
+  }
+  .ok {
+    margin-left: 22% !important;
+  }
+
   .background-image {
     min-height: 100vh;
     max-width: 1440px;
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .ok {
+    margin-left: 28% !important;
+  }
+}
+
 @media screen and (max-width: 1023px) {
+  .text-animator {
+    position: relative;
+    top: 5px;
+    left: 0;
+    margin-top: 8px;
+  }
+  .ok {
+    margin-left: 0% !important;
+  }
   .background-image {
     min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ok {
+    margin-left: 0% !important;
   }
 }
 
 @media screen and (max-width: 400px) {
   .background-image {
     min-height: 120vh;
+  }
+
+  .ok {
+    margin-left: 0% !important;
   }
 }
