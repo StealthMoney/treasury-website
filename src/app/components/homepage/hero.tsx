@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
-          <h1 className="leading-[72px] font-bold text-[48px] text-white font-serif relative">
+          <h1 className="leading-[72px] font-bold text-[44px] text-white !font-satoshi relative">
             Every smart{" "}
             <span className="text-animator text-[var(--color-primary)]">
               <span className="text-animator__visible">company</span>

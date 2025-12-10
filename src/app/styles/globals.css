@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* --------------------------------------------------------------------------> Geist <------------------------------------------------------- */
 @font-face {
   font-family: "Geist", sans-serif;
   src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
@@ -48,7 +49,7 @@
   font-display: swap;
 }
 
-/* Playfair Display */
+/* --------------------------------------------------------------------------> Playfair <------------------------------------------------------- */
 @font-face {
   font-family: "Playfair", serif;
   src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
@@ -104,6 +105,7 @@
   font-display: swap;
 }
 
+/* --------------------------------------------------------------------------> Neuehas <------------------------------------------------------- */
 @font-face {
   font-family: "Neuehas", sans-serif;
   src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
@@ -160,6 +162,7 @@
   font-display: swap;
 }
 
+/* --------------------------------------------------------------------------> Inter <------------------------------------------------------- */
 @font-face {
   font-family: "Inter", sans-serif;
   src: url("/fonts/inter/Inter_18pt-Regular.ttf") format("truetype");
@@ -184,6 +187,58 @@
   font-display: swap;
 }
 
+/* --------------------------------------------------------------------------> Satoshi <------------------------------------------------------- */
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -201,6 +256,7 @@
   --font-family-serif: "Playfair", serif;
   --font-family-neuehas: "Neuehas", sans-serif;
   --font-family-inter: "Inter", sans-serif;
+  --font-family-satoshi: "Satoshi", sans-serif;
 }
 
 @theme inline {
@@ -210,6 +266,7 @@
   --font-inter: var(--font-family-inter);
   --font-serif: var(--font-family-serif);
   --font-neuehas: var(--font-family-neuehas);
+  --font-satoshi: var(--font-family-satoshi);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -252,11 +309,13 @@ body {
 .my-scroll-container::-webkit-scrollbar {
   display: none !important; /* Chrome, Safari, Opera */
 }
+
+/* hero text animation */
 .text-animator {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  height: 1.2em;
+  height: 1.5em;
 }
 
 .text-animator > * {
@@ -317,6 +376,7 @@ body {
     visibility: hidden;
   }
 }
+/* End of animation */
 
 @media screen and (min-width: 1024px) {
   .text-animator {
@@ -324,7 +384,7 @@ body {
     top: -2%;
   }
   .ok {
-    margin-left: 22% !important;
+    margin-left: 23% !important;
   }
 
   .background-image {
@@ -335,7 +395,10 @@ body {
 
 @media screen and (max-width: 1024px) {
   .ok {
-    margin-left: 28% !important;
+    margin-left: 30% !important;
+  }
+  .text-animator{
+    height: 1.7em;
   }
 }
 
@@ -345,6 +408,7 @@ body {
     top: 5px;
     left: 0;
     margin-top: 8px;
+    height: 1.3em;
   }
   .ok {
     margin-left: 0% !important;
