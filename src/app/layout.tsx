@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./styles/globals.css";
+import Providers from "./providers";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -66,7 +67,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased max-w-[1440px] m-auto !overflow-x-hidden my-scroll-container`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

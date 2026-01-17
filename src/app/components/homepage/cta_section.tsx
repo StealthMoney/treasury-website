@@ -1,8 +1,11 @@
 "use client";
 import Button from "../reusables/button";
 import { consultationRedirect } from "../reusables/functions";
+import { useConsultationModal } from "../reusables/context/consultation";
 
 export default function CTASection() {
+  const { openModal } = useConsultationModal();
+
   return (
     <div className="w-full flex justify-center items-center md:my-[120px] my-[100px]">
       <section className="bg-[#764304] rounded-4xl overflow-y-hidden w-[85%]">
@@ -18,7 +21,7 @@ export default function CTASection() {
                 asset.
               </p>
               <Button
-                onClick={() => consultationRedirect()}
+                onClick={openModal}
                 text="Book a consultation"
                 type="button"
                 className="bg-[var(--color-primary)] text-white px-8 py-3.5 border cursor-pointer border-white font-medium transition-colors text-lg md:w-auto w-full"

@@ -3,28 +3,28 @@ import Image from "next/image";
 export default function WhyBitcoinSection() {
   const features = [
     {
-      icon: "/images/gold.svg",
-      title: "Bitcoin is Digital Gold",
+      icon: "/images/money.svg",
+      title: "Unlock growth capital",
       description:
-        "Bitcoin is widely referred to as digital gold because it shares gold's essential characteristics as a scarce, non-sovereign store of value, making it the ideal asset for wealth preservation in the digital age.",
+        "Stealth Treasury enables businesses to finance operations, expansion, or capital expenditures using Bitcoin as collateral rather than equity or core assets. This provides non-dilutive capital while preserving ownership and balance sheet strength.",
     },
     {
       icon: "/images/chart.svg",
-      title: "Unmatched Liquidity",
+      title: "Preserve upside",
       description:
-        "Bitcoin is the most liquid asset in the world, it can be transferred globally in minutes. The Bitcoin network is secured by distributed proof-of-work (PoW) mining network, making it impossible to hack.",
+        "Companies can access liquidity without selling their Bitcoin, allowing them to maintain long-term exposure to a scarce, inflation-resistant asset. This avoids the opportunity cost and tax implications of liquidating strategic treasury holdings.",
     },
     {
       icon: "/images/lock.svg",
-      title: "Verifiable, Fixed Supply",
+      title: "Reduce treasury risk",
       description:
-        "There will only ever be 21 million Bitcoin, and you can verify this yourself at any time on the public blockchain. This hard cap is enforced by the network itself, giving Bitcoin a level of scarcity and trust that no government or central authority can alter.",
+        "By holding Bitcoin alongside fiat, companies hedge against local currency devaluation, capital controls, and banking instability. Bitcoin-backed credit offers liquidity without reintroducing excessive exposure to fragile financial systems.",
     },
     {
       icon: "/images/shield.svg",
-      title: "Hedge Against Inflation",
+      title: "Operational simplicity",
       description:
-        "As governments print more money and inflation rises, Bitcoin remains resistant. Its decentralized and predictable supply makes it a long-term store of value to preserve wealth across generations.",
+        "Stealth Treasury consolidates custody, lending, and reporting into a single, corporate-grade platform. Finance teams gain clear oversight, predictable processes, and audit-ready workflows without crypto-native complexity.",
     },
   ];
 
@@ -32,7 +32,7 @@ export default function WhyBitcoinSection() {
     <section className="py-16 md:py-24 bg-[var(--color-light)]">
       <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-16 font-serif">
-          Why Bitcoin Only
+          Why Stealth Treasury
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {features.map((feature, index) => (

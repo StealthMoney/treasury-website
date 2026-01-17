@@ -2,8 +2,11 @@
 import React from "react";
 import Button from "../reusables/button";
 import { consultationRedirect } from "../reusables/functions";
+import { useConsultationModal } from "../reusables/context/consultation";
 
 export default function Hero() {
+  const { openModal } = useConsultationModal();
+
   return (
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
@@ -26,15 +29,15 @@ export default function Hero() {
         </div>
         <div className="text-center flex flex-col items-center justify-center w-full">
           <p className="leadin-[36px] text-[18px] text-[var(--color-background)] md:max-w-[90%]">
-            Stay ahead of the curve. Stealth Treasury empowers companies to
-            protect value and grow with Bitcoin, the world&apos;s strongest
-            asset.
+            Stealth Treasury enables companies to unlock liquidity from Bitcoin
+            holdings while preserving long-term treasury value. Simply,
+            securely, and at corporate scale.
           </p>
         </div>
 
         <div className="w-full">
           <Button
-            onClick={() => consultationRedirect()}
+            onClick={openModal}
             text="Book a Consultation"
             className="p-4 text-[var(--color-background)] border border-white bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
             type="button"

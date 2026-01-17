@@ -10,11 +10,11 @@ export default function Footer() {
             Stealth Treasury is a Bitcoin-only service provider
           </p>
           <p className="text-[16px] text-[#C7C7C7] leading-[36px] max-w-4xl">
-            Stealth Treasury by Stealth Money is a financial technology company
-            incorporated in Delaware, US. We do not offer our services to
-            clients in the United States of America, the United Kingdom, the
-            European Union (including the European Economic Area), or other
-            prohibited and sanctioned jurisdictions.
+            Stealth Treasury by Stealth Money is a financial technology company.
+            We do not offer our services to clients in the United States of
+            America, the United Kingdom, the European Union (including the
+            European Economic Area), or other prohibited and sanctioned
+            jurisdictions.
           </p>
         </div>
 

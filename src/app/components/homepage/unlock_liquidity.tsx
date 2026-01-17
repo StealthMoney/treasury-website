@@ -14,7 +14,7 @@ export default function UnlockLiquiditySection() {
             </p>
             <p className="text-[16px] md:text-[20px] text-[var(--color-gray)] leading-relaxed">
               With Bitcoin-collateralized loans, you can secure a line of credit
-              against your treasury reserve — freeing up liquidity for business
+              against your treasury reserve, freeing up liquidity for business
               operations and growth, without giving up your upside exposure.
             </p>
           </div>
