@@ -5,9 +5,11 @@ import Button from "./button";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { consultationRedirect } from "./functions";
+import { useConsultationModal } from "./context/consultation";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { openModal } = useConsultationModal();
 
   const path = usePathname();
 
@@ -66,7 +68,7 @@ export default function Navigation() {
 
             <div className="hidden md:block">
               <Button
-                onClick={() => consultationRedirect()}
+                onClick={openModal}
                 text="Talk to us"
                 type="button"
                 className={`text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
