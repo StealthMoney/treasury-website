@@ -295,10 +295,10 @@
 @theme {
   --color-dark: #090909;
   --color-gray: #222222;
-  --color-primary: #f7931a;
+  --color-primary: #000000;
   --color-accent: #fde3c4;
   --color-light: #f0f0f0;
-  --color-primary-darker: #271601;
+  --color-primary-darker: #161616;
 
   --font-family-sans: "Geist", sans-serif;
   --font-family-serif: "Playfair", serif;
@@ -366,7 +366,7 @@ body {
 }
 
 .background-image {
-  background: url("/images/hero.webp") no-repeat center/cover;
+  background: url("/images/office-hero.webp") no-repeat center/cover;
   width: 100vw;
   min-height: 100vh;
 }
@@ -376,8 +376,13 @@ body {
 }
 
 .bg15 {
-  background: url("/images/15.svg");
+  background:
+    linear-gradient(rgba(102,102,102,0.6), rgba(102,102,102,0.6)),
+    url("/images/16.svg");
+  background-size: cover;
+  background-position: center;
 }
+
 
 .my-scroll-container {
   overflow-y: auto !important;

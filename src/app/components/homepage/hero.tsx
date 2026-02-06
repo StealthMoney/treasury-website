@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Button from "../reusables/button";
 import { consultationRedirect } from "../reusables/functions";
 import { useConsultationModal } from "../reusables/context/consultation";
@@ -24,24 +23,15 @@ export default function Hero() {
               </span>
             </span>
 
-            <span className="ok">
-              will hold Bitcoin. Stealth Treasury simplifies this.
-            </span>
+            <span className="ok">needs a modern treasury strategy.</span>
           </h1>
         </div>
-        <div className="text-center flex flex-col items-center justify-center w-full">
-          <p className="leadin-[36px] text-[18px] text-[var(--color-background)] md:max-w-[90%]">
-            Stealth Treasury enables companies to unlock liquidity from Bitcoin
-            holdings while preserving long-term treasury value. Simply,
-            securely, and at corporate scale.
-          </p>
-        </div>
 
-        <div className="w-full">
+        <div className="w-full mt-8">
           <Button
             onClick={openModal}
             text="Book a Consultation"
-            className="p-4 text-[var(--color-background)] border border-white bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
+            className="p-4 text-[var(--color-background)] border border-[#FDE3C4] bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
             type="button"
           />
         </div>

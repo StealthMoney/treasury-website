@@ -219,7 +219,7 @@ export function ConsultationModal() {
                     }}
                     className="mb-6"
                   >
-                    <div className="w-20 h-20 bg-[#F7931A] rounded-full flex items-center justify-center">
+                    <div className="w-20 h-20 bg-[#161616] rounded-full flex items-center justify-center">
                       <motion.svg
                         className="w-10 h-10 text-white"
                         fill="none"
@@ -258,7 +258,7 @@ export function ConsultationModal() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.3 }}
                     onClick={() => handleOpenChange(false)}
-                    className="w-full bg-[#F7931A] hover:bg-[#F7931A]/80 text-white font-semibold font-switzer py-3 cursor-pointer rounded-none transition-colors text-[16px]"
+                    className="w-full bg-[#161616] hover:bg-[#161616]/80 text-white font-semibold font-switzer py-3 cursor-pointer rounded-none transition-colors text-[16px]"
                   >
                     Close
                   </motion.button>
@@ -386,7 +386,7 @@ export function ConsultationModal() {
                     <button
                       type="submit"
                       disabled={submitting}
-                      className="w-full bg-[#F7931A] hover:bg-[#F7931A]/80 disabled:bg-[#E6E6E6] disabled:cursor-not-allowed text-white font-semibold py-3 cursor-pointer rounded-none transition-colors mt-6 text-[16px]"
+                      className="w-full bg-[#161616] hover:bg-[#161616]/80 disabled:bg-[#E6E6E6] disabled:cursor-not-allowed text-white font-semibold py-3 cursor-pointer rounded-none transition-colors mt-6 text-[16px]"
                     >
                       {submitting ? "Submitting..." : "Submit"}
                     </button>
