@@ -4,27 +4,27 @@ export default function WhyBitcoinSection() {
   const features = [
     {
       icon: "/images/money.svg",
-      title: "Unlock growth capital",
+      title: "Simplified Treasury Conversions",
       description:
-        "Stealth Treasury enables businesses to finance operations, expansion, or capital expenditures using Bitcoin as collateral rather than equity or core assets. This provides non-dilutive capital while preserving ownership and balance sheet strength.",
+        "Allocate a portion of your treasury to USD-pegged stablecoins. A liquid, safe digital dollar equivalent that retains value and supports yield generation.",
     },
     {
       icon: "/images/chart.svg",
-      title: "Preserve upside",
+      title: "Earn Predictable Yield",
       description:
-        "Companies can access liquidity without selling their Bitcoin, allowing them to maintain long-term exposure to a scarce, inflation-resistant asset. This avoids the opportunity cost and tax implications of liquidating strategic treasury holdings.",
+        "Stealth Treasury deploys your treasury into regulated, secured yield opportunities where companies can generate yield on their idle cash.",
     },
     {
       icon: "/images/lock.svg",
-      title: "Reduce treasury risk",
+      title: "Borrow Against Your Holdings",
       description:
-        "By holding Bitcoin alongside fiat, companies hedge against local currency devaluation, capital controls, and banking instability. Bitcoin-backed credit offers liquidity without reintroducing excessive exposure to fragile financial systems.",
+        "Access liquidity by borrowing against your treasury reserve, unlocking capital for operations or strategic initiatives while keeping your reserve intact.",
     },
     {
       icon: "/images/shield.svg",
-      title: "Operational simplicity",
+      title: "Real-Time Reporting & Treasury Tools",
       description:
-        "Stealth Treasury consolidates custody, lending, and reporting into a single, corporate-grade platform. Finance teams gain clear oversight, predictable processes, and audit-ready workflows without crypto-native complexity.",
+        "Manage risk, monitor performance, and stay audit-ready with a transparent suite of treasury dashboards. Our easy to use and intuitive dashboards provide simple reports.",
     },
   ];
 

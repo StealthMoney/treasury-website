@@ -1,20 +1,34 @@
 export default function BitcoinFocusedSection() {
   return (
     <section className="w-full flex justify-center items-center my-[100px]">
-      <section className="bg-[#E0E3DE] max-w-[85%] rounded-4xl">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 bg14 rounded-4xl flex justify-center flex-col items-center">
-          {/* <p className="text-[var(--color-primary)] max-w-2/4 md:text-[16px] text-[12px] font-semibold tracking-wider uppercase mb-6">
-            Stealth Treasury is Bitcoin Focused
-          </p> */}
-          <h2 className="text-2xl md:text-[32px] text-[24px] font-bold text-gray-900 mb-8 leading-tight max-w-3/4 font-serif">
-            Bitcoin has evolved into a proven financial asset, with governments
-            holding it in their strategic reserves, leading sovereign wealth and
-            pension funds owning it, and major companies accumulating it within
-            their corporate treasuries.
-          </h2>
-          <p className="text-base md:text-lg text-gray-700 leading-relaxed max-w-[60%] md:text-[18px] text-[14px]">
-            More than a service provider, Stealth Treasury is a partner to your
-            team, offering an end-to-end Bitcoin Treasury solution.
+      <section className="bg-[#B1E9E6] max-w-[85%] rounded-4xl">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 bg14 rounded-4xl flex justify-center flex-col items-center gap-y-12">
+          <h1 className="font-sans md:text-[32px] text-[24px] font-[600]">
+            THE STEALTH TREASURY STACK
+          </h1>
+          <ul className="flex max-2xl:whitespace-nowrap max-xl:whitespace-pre-wrap md:text-[20px] text-[10px] font-sans font-[600] m-0 p-0 justify-items-start items-start">
+            <li className="mr-4">Annual Yield</li>
+
+            <li className="flex items-center mr-4">
+              <span className="mr-[2px] text-[1em] leading-none">•</span>
+              Borrow Against Your Treasury
+            </li>
+
+            <li className="flex items-center mr-4">
+              <span className="mr-[2px] text-[1em] leading-none">•</span>
+              Institutional Grade Infrastructure
+            </li>
+
+            <li className="flex items-center">
+              <span className="mr-[2px] text-[1em] leading-none">•</span>
+              Regulatory Compliance
+            </li>
+          </ul>
+
+          <p className="text-base md:text-lg text-gray-700 leading-relaxed max-w-[85%] md:text-[18px] text-[14px] font-bold">
+            Stealth Treasury is a partner to your team, offering an end-to-end
+            next generation treasury solution. Unlock low-risk yield, balance
+            sheet flexibility, and liquidity treasury solutions.
           </p>
         </div>
       </section>

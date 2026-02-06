@@ -10,27 +10,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Stealth Treasury | Bitcoin Treasury Infrastructure for Companies",
+  title: "Stealth Treasury | Corporate Treasury Infrastructure for Global South",
   description:
-    "Stealth Treasury helps businesses securely hold and manage Bitcoin using stealth custody technology. Build your company’s Bitcoin treasury with privacy and confidence.",
+    "Stealth Treasury helps businesses securely hold and manage Company treasury using stealth custody technology. Build your company’s treasury with privacy and confidence.",
   keywords: [
     "Stealth Treasury",
-    "Bitcoin custody",
+    "corporate treasury custody",
     "corporate treasury",
     "crypto custody",
-    "Bitcoin for companies",
-    "secure Bitcoin management",
+    "Treasury for companies",
+    "secure treasury management",
     "crypto security platform",
-    "Bitcoin treasury",
-    "Bitcoin Treasury Infrastructure",
+    "Corporate treasury",
+    "Corporate Treasury Infrastructure",
   ],
   authors: [{ name: "Stealth" }],
   creator: "Stealth",
   metadataBase: new URL("https://www.stealthtreasury.com"),
   openGraph: {
-    title: "Stealth Treasury | Bitcoin Treasury Infrastructure for Companies",
+    title: "Stealth Treasury | Corporate Treasury Infrastructure for Global South",
     description:
-      "Hold and manage Bitcoin with enterprise-level security and stealth custody. Protect your company's crypto assets with Stealth Treasury.",
+      "Hold and manage Treasury with enterprise-level security and stealth custody. Protect your company's crypto assets with Stealth Treasury.",
     url: "https://www.stealthtreasury.com",
     siteName: "Stealth Treasury",
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         url: "/images/hero.png",
         width: 1200,
         height: 630,
-        alt: "Stealth Treasury - Bitcoin Treasury Infrastructure for Companies",
+        alt: "Stealth Treasury -  Corporate Treasury Infrastructure for Global South",
       },
     ],
     locale: "en_US",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stealth Treasury | Bitcoin Treasury Infrastructure for Companies",
+    title: "Stealth Treasury |  Corporate Treasury Infrastructure for Global South",
     description:
-      "Stealth Treasury helps businesses hold and manage Bitcoin with stealth custody solutions for maximum privacy and control.",
+      "Stealth Treasury helps businesses hold and manage Your company Treasury with stealth custody solutions for maximum privacy and control.",
     images: ["/images/hero.png"],
     creator: "@stealthmoney_",
   },

@@ -42,7 +42,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/Stealth Treasury.svg"
+                src="/Stealth_logo1.png"
                 alt="logo"
                 width={100}
                 height={100}
@@ -71,7 +71,7 @@ export default function Navigation() {
                 onClick={openModal}
                 text="Talk to us"
                 type="button"
-                className={`text-white px-6 py-2.5 border border-white font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
+                className={`text-white px-6 py-2.5 border border-[#FDE3C4] font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
               />
             </div>
 
@@ -141,7 +141,7 @@ export default function Navigation() {
                 onClick={() => consultationRedirect()}
                 text="Talk to us"
                 type="button"
-                className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-white font-medium transition-colors`}
+                className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-[#FDE3C4] font-medium transition-colors`}
               />
             </div>
           </div>
