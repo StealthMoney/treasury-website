@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased max-w-[1440px] m-auto !overflow-x-hidden my-scroll-container`}
+        className={`antialiased max-w-[1440px] m-auto !overflow-x-hidden my-scroll-container`}
       >
         <Providers>{children}</Providers>
       </body>

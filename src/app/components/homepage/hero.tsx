@@ -10,16 +10,12 @@ export default function Hero() {
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
-          <h1 className="leading-[1.2] font-bold text-[44px] text-white !font-satoshi text-center">
+          <h1 className="leading-[1.2] font-bold text-[44px] text-white font-montserrat! text-center">
             <span className="inline">Every smart </span>
 
             <span className="text-animator-wrapper">
-              <span className="text-animator text-[var(--color-primary)]">
-                <span className="text-animator__sizer">business</span>
-
-                <span className="text-animator__item is-visible">company</span>
-                <span className="text-animator__item text-5xl">startup</span>
-                <span className="text-animator__item">business</span>
+              <span className="text-animator">
+                <span className="text-animator__sizer">company</span>
               </span>
             </span>
 

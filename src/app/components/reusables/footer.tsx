@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-primary-darker)] py-12 md:py-16 rounded-t-4xl font-sans!">
+    <footer className="bg-[var(--color-primary-darker)] py-12 md:py-16 rounded-t-4xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="mb-12">
@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/company/stealthmoney"
+              href="https://www.linkedin.com/company/stealthtreasury"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-colors text-black hover:bg-white/20"

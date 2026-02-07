@@ -42,7 +42,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/Stealth_logo1.png"
+                src="/stealth_logo1.png"
                 alt="logo"
                 width={100}
                 height={100}

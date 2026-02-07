@@ -7,6 +7,7 @@ import UnlockLiquiditySection from "./unlock_liquidity";
 import CTASection from "./cta_section";
 import Backed_by from "./backed_by";
 import Footer from "../reusables/footer";
+import FAQ_section from "./faq_section";
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
       <WhyBitcoinSection />
       <UnlockLiquiditySection />
       <Backed_by />
+      <FAQ_section />
       <CTASection />
       <Footer />
     </>
