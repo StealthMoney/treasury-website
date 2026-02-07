@@ -9,18 +9,18 @@ export default function BitcoinFocusedSection() {
           <ul className="flex max-2xl:whitespace-nowrap max-xl:whitespace-pre-wrap md:text-[20px] text-[10px] font-montserrat font-[600] m-0 p-0 justify-items-start items-start">
             <li className="mr-4">Annual Yield</li>
 
-            <li className="flex items-center mr-4">
-              <span className="mr-[2px] text-[1em] leading-none">•</span>
+            <li className="flex md:items-center items-start mr-4">
+              <span className="mr-[10px] text-[1em] leading-none">•</span>
               Borrow Against Your Treasury
             </li>
 
-            <li className="flex items-center mr-4">
-              <span className="mr-[2px] text-[1em] leading-none">•</span>
+            <li className="flex md:items-center items-start mr-4">
+              <span className="mr-[10px] text-[1em] leading-none">•</span>
               Institutional Grade Infrastructure
             </li>
 
-            <li className="flex items-center">
-              <span className="mr-[2px] text-[1em] leading-none">•</span>
+            <li className="flex md:items-center items-start">
+              <span className="mr-[10px] text-[1em] leading-none">•</span>
               Regulatory Compliance
             </li>
           </ul>

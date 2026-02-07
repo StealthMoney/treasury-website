@@ -5,7 +5,7 @@ export default function Backed_by() {
     <section className="w-full flex justify-center items-center border border-[#D8D3D3] py-24 md:min-h-[40vh]">
       <section className="max-w-[85%]">
         <div className="w-full flex flex-col gap-y-5 justify-center items-center">
-          <p className="md:text-[16px] text-[12px] mb-8">Backed By:</p>
+          <p className="md:text-[16px] text-[12px] mb-8">We Are Backed By:</p>
 
           <div className="md:w-full md:h-2/4">
             <Image
