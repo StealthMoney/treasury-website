@@ -3,25 +3,25 @@ import Image from "next/image";
 export default function WhyBitcoinSection() {
   const features = [
     {
-      icon: "/images/money.svg",
+      icon: "/images/simplified.svg",
       title: "Simplified Treasury Conversions",
       description:
         "Allocate a portion of your treasury to USD-pegged stablecoins. A liquid, safe digital dollar equivalent that retains value and supports yield generation.",
     },
     {
-      icon: "/images/chart.svg",
+      icon: "/images/earn.svg",
       title: "Earn Predictable Yield",
       description:
         "Stealth Treasury deploys your treasury into regulated, secured yield opportunities where companies can generate yield on their idle cash.",
     },
     {
-      icon: "/images/lock.svg",
+      icon: "/images/borrow.svg",
       title: "Borrow Against Your Holdings",
       description:
         "Access liquidity by borrowing against your treasury reserve, unlocking capital for operations or strategic initiatives while keeping your reserve intact.",
     },
     {
-      icon: "/images/shield.svg",
+      icon: "/images/real.svg",
       title: "Real-Time Reporting & Treasury Tools",
       description:
         "Manage risk, monitor performance, and stay audit-ready with a transparent suite of treasury dashboards. Our easy to use and intuitive dashboards provide simple reports.",
