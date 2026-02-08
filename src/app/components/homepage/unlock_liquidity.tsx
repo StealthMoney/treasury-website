@@ -6,7 +6,7 @@ export default function UnlockLiquiditySection() {
       <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex md:flex-row flex-col w-full gap-12 items-center">
           <div className="md:w-[60%] w-full">
-            <h2 className="text-[32px] md:text-[44px] lg:text-5xl font-bold text-[var(--color-dark)] mb-6 leading-tight font-serif">
+            <h2 className="text-[32px] md:text-[44px] lg:text-5xl font-bold text-[var(--color-dark)] mb-6 leading-tight font-montserrat">
               Unlock Liquidity with Your Treasury Reserve.
             </h2>
             <p className="text-[16px] md:text-[20px] leading-relaxed text-[var(--color-gray)]">
