@@ -138,7 +138,7 @@ export default function Navigation() {
 
             <div className="mt-8">
               <Button
-                onClick={() => consultationRedirect()}
+                onClick={openModal}
                 text="Talk to us"
                 type="button"
                 className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-[#FDE3C4] font-medium transition-colors`}

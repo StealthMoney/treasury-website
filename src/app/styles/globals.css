@@ -3,59 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* --------------------------------------------------------------------------> Geist <------------------------------------------------------- */
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Geist", sans-serif;
-  src: url("/fonts/geist/Geist-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* -----------------------------------------------------------------------------------------> Switzer <---------------------------------------------------------------------------------------- */
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Regular.otf") format("opentype");
   font-weight: 200;
   font-style: normal;
@@ -63,7 +14,7 @@
 }
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Regular.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
@@ -71,7 +22,7 @@
 }
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -79,7 +30,7 @@
 }
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
@@ -87,7 +38,7 @@
 }
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
@@ -95,64 +46,8 @@
 }
 
 @font-face {
-  font-family: "Switzer", sans-serif;
+  font-family: "Switzer";
   src: url("/fonts/switzer/Switzer-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* --------------------------------------------------------------------------> Playfair <------------------------------------------------------- */
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Italic.ttf") format("truetype");
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair", serif;
-  src: url("/fonts/playfair/Playfair_144pt-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -160,7 +55,7 @@
 
 /* --------------------------------------------------------------------------> Neuehas <------------------------------------------------------- */
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
@@ -168,7 +63,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
@@ -176,7 +71,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
@@ -184,7 +79,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayLight.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -192,7 +87,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -200,7 +95,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayMediu.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -208,7 +103,7 @@
 }
 
 @font-face {
-  font-family: "Neuehas", sans-serif;
+  font-family: "Neuehas";
   src: url("/fonts/neuehas/NeueHaasDisplayBold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -217,7 +112,7 @@
 
 /* --------------------------------------------------------------------------> Inter <------------------------------------------------------- */
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("/fonts/inter/Inter_18pt-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -225,7 +120,7 @@
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("/fonts/inter/Inter_18pt-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -233,68 +128,16 @@
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("/fonts/inter/Inter_18pt-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* --------------------------------------------------------------------------> Satoshi <------------------------------------------------------- */
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-Variable.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url("/fonts/satoshi_variable/Satoshi-VariableItalic.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
 /* ------------------------------------------------------------------------------->Montserrat<------------------------------------------------------------------- */
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -302,7 +145,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -310,7 +153,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -318,7 +161,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
@@ -326,7 +169,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
@@ -334,7 +177,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
@@ -343,7 +186,7 @@
 
 /* --------------------------------------------------------------------------->DM Sans<---------------------------------------------------------------------- */
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans_18pt-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -351,7 +194,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -359,7 +202,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -367,7 +210,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans_24pt-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
@@ -375,7 +218,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
@@ -383,7 +226,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   src: url("/fonts/dm_sans/DMSans-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
@@ -399,11 +242,8 @@
   --color-light: #f0f0f0;
   --color-primary-darker: #161616;
 
-  --font-family-sans: "Geist", sans-serif;
-  --font-family-serif: "Playfair", serif;
   --font-family-neuehas: "Neuehas", sans-serif;
   --font-family-inter: "Inter", sans-serif;
-  --font-family-satoshi: "Satoshi", sans-serif;
   --font-family-switzer: "Switzer", sans-serif;
   --font-family-dmSans: "DM Sans", sans-serif;
   --font-family-montserrat: "Montserrat", sans-serif;
@@ -412,11 +252,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-family-sans);
   --font-inter: var(--font-family-inter);
-  --font-serif: var(--font-family-serif);
   --font-neuehas: var(--font-family-neuehas);
-  --font-satoshi: var(--font-family-satoshi);
   --font-switzer: var(--font-family-switzer);
   --font-dmSans: var(--font-family-dmSans);
   --font-montserrat: var(--font-family-montserrat);
@@ -458,14 +295,32 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 
+@layer utilities {
+  .font-montserrat {
+    font-family: var(--font-montserrat);
+  }
+
+  .font-neuehas {
+    font-family: var(--font-neuehas);
+  }
+
+  .font-switzer {
+    font-family: var(--font-switzer);
+  }
+
+  .font-dmSans {
+    font-family: var(--font-dmSans);
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-dmSans);
-}
-
-.font-serif-custom {
-  font-family: var(--font-serif);
 }
 
 .background-image {
@@ -577,6 +432,11 @@ body {
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --font-family-neuehas: "Neuehas", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-switzer: "Switzer", sans-serif;
+  --font-family-dmSans: "DM Sans", sans-serif;
+  --font-family-montserrat: "Montserrat", sans-serif;
 }
 
 .dark {
