@@ -16,7 +16,6 @@ interface formWithRecaptchaType {
   companyEmail: string;
   companyRep: string;
   repPosition: string;
-  reserveAmount: string;
 }
 
 export function ConsultationModal() {
@@ -32,7 +31,6 @@ export function ConsultationModal() {
     companyEmail: "",
     companyRep: "",
     repPosition: "",
-    reserveAmount: "",
   });
 
   const [recaptchaError, setRecaptchaError] = React.useState<string | null>(
@@ -71,14 +69,6 @@ export function ConsultationModal() {
     }
     if (!formData.repPosition.trim()) {
       errors.repPosition = "Rep position is required";
-    }
-    if (!formData.reserveAmount) {
-      errors.reserveAmount = "Reserve amount is required";
-    } else if (
-      isNaN(Number(formData.reserveAmount)) ||
-      Number(formData.reserveAmount) <= 0
-    ) {
-      errors.reserveAmount = "Please enter a valid amount";
     }
 
     setFieldErrors(errors);
@@ -173,7 +163,6 @@ export function ConsultationModal() {
         companyEmail: "",
         companyRep: "",
         repPosition: "",
-        reserveAmount: "",
       });
       closeModal();
     }
@@ -185,7 +174,6 @@ export function ConsultationModal() {
       companyEmail: "",
       companyRep: "",
       repPosition: "",
-      reserveAmount: "",
     });
   }, []);
 
@@ -245,10 +233,10 @@ export function ConsultationModal() {
                     transition={{ delay: 0.6, duration: 0.3 }}
                     className="text-center mb-8"
                   >
-                    <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">
+                    <h2 className="text-2xl font-montserrat font-bold text-gray-900 mb-2">
                       Consultation Successfully Booked
                     </h2>
-                    <p className="text-gray-600 text-sm font-switzer">
+                    <p className="text-gray-600 text-sm font-dmSans">
                       Thank you! Our team will be in touch shortly.
                     </p>
                   </motion.div>
@@ -258,7 +246,7 @@ export function ConsultationModal() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.3 }}
                     onClick={() => handleOpenChange(false)}
-                    className="w-full bg-[#161616] hover:bg-[#161616]/80 text-white font-semibold font-switzer py-3 cursor-pointer rounded-none transition-colors text-[16px]"
+                    className="w-full bg-[#161616] hover:bg-[#161616]/80 text-white font-semibold font-montserrat py-3 cursor-pointer rounded-md transition-colors text-[16px]"
                   >
                     Close
                   </motion.button>
@@ -266,8 +254,8 @@ export function ConsultationModal() {
               ) : (
                 <div>
                   <DialogHeader>
-                    <DialogTitle className="text-[24px] font-serif font-bold my-8">
-                      Then Talk to our team
+                    <DialogTitle className="text-[24px] font-montserrat font-bold my-8">
+                      Let&apos;s have a discovery call
                     </DialogTitle>
                   </DialogHeader>
 
@@ -357,26 +345,6 @@ export function ConsultationModal() {
                       </div>
                     </div>
 
-                    <div>
-                      <input
-                        name="reserveAmount"
-                        placeholder="How much does your company want to reserve in treasury *"
-                        value={formData.reserveAmount}
-                        onChange={handleChange}
-                        type="number"
-                        className={`w-full px-4 py-3 bg-[#E6E6E6] border-0 text-sm text-gray-900 placeholder-[#707070] focus:bg-white transition-colors ${
-                          fieldErrors.reserveAmount
-                            ? "bg-red-50 focus:bg-red-50"
-                            : ""
-                        }`}
-                      />
-                      {fieldErrors.reserveAmount && (
-                        <p className="text-[#B31919] text-xs mt-1">
-                          {fieldErrors.reserveAmount}
-                        </p>
-                      )}
-                    </div>
-
                     {(recaptchaError || error) && (
                       <div className="w-full text-[#B31919] text-sm">
                         {recaptchaError || error}
@@ -386,7 +354,7 @@ export function ConsultationModal() {
                     <button
                       type="submit"
                       disabled={submitting}
-                      className="w-full bg-[#161616] hover:bg-[#161616]/80 disabled:bg-[#E6E6E6] disabled:cursor-not-allowed text-white font-semibold py-3 cursor-pointer rounded-none transition-colors mt-6 text-[16px]"
+                      className="w-full bg-[#161616] hover:bg-[#161616]/80 disabled:bg-[#E6E6E6] font-montserrat disabled:cursor-not-allowed text-white font-semibold py-3 cursor-pointer rounded-md transition-colors mt-6 text-[16px]"
                     >
                       {submitting ? "Submitting..." : "Submit"}
                     </button>
