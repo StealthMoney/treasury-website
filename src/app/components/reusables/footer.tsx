@@ -7,11 +7,9 @@ export default function Footer() {
         {/* Top Section */}
         <div className="mb-12">
           <p className="text-[16px] text-[#C7C7C7] leading-[36px] max-w-4xl">
-            Stealth Treasury is a financial technology company. We do not  offer
-            our services to clients in the United States of America, the United
-            Kingdom, the European Union (including the European Economic Area),
-            or prohibited jurisdictions. Our services are facilitated through
-            licensed and regulated third-parties.
+            Stealth Treasury operates through licensed entities and regulated
+            financial partners to deliver digital services across supported
+            jurisdictions, in line with local regulatory frameworks.
           </p>
         </div>
 
