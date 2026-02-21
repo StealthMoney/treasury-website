@@ -9,9 +9,6 @@ export default function UnlockLiquiditySection() {
             <h2 className="text-[32px] md:text-[44px] lg:text-5xl font-bold text-[var(--color-dark)] mb-6 leading-tight font-montserrat">
               Unlock Liquidity with Your Treasury Reserve.
             </h2>
-            <p className="text-[16px] md:text-[20px] leading-relaxed text-[var(--color-gray)]">
-              Unlock liquidity without touching your treasury reserve.
-            </p>
             <p className="text-[16px] md:text-[20px] text-[var(--color-gray)] leading-relaxed">
               Secure a corporate line of credit with Stealth Treasury,
               leveraging your treasury to access working capital for operations,
