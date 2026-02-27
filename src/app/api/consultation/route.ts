@@ -20,6 +20,8 @@ export async function POST(request: Request) {
     });
 
     const data = await res.json();
+    console.log(res, "is res");
+    
 
     if (!res.ok) {
       return NextResponse.json(
@@ -40,6 +42,7 @@ export async function POST(request: Request) {
       { status: 201 }
     );
   } catch (error) {
+    console.log(error, "is error");
     return NextResponse.json(
       { success: false, message: "Failed to book consultation" },
       { status: 500 }
