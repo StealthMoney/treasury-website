@@ -16,7 +16,7 @@ export default function WhyBitcoinSection() {
     },
     {
       icon: "/images/borrow.svg",
-      title: "Borrow Against Your Holdings",
+      title: "Access to affordable credit",
       description:
         "Access liquidity by borrowing against your treasury reserve, unlocking capital for operations or strategic initiatives while keeping your reserve intact.",
     },
