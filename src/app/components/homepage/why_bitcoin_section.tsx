@@ -6,7 +6,7 @@ export default function WhyBitcoinSection() {
       icon: "/images/simplified.svg",
       title: "Simplified Treasury Conversions",
       description:
-        "Allocate a portion of your treasury to USD-pegged stablecoins. A liquid, safe digital dollar equivalent that retains value and supports yield generation.",
+        "Seamlessly allocate a portion of your treasury to yield generating assets. Earn attractive returns while maintaining liquidity and control over your capital.",
     },
     {
       icon: "/images/earn.svg",
