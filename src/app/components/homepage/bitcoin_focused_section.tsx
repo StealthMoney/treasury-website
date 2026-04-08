@@ -7,11 +7,11 @@ export default function BitcoinFocusedSection() {
             STEALTH TREASURY STACK
           </h1>
           <ul className="flex max-2xl:whitespace-nowrap max-xl:whitespace-pre-wrap md:text-[20px] text-[10px] font-montserrat font-[600] m-0 p-0 justify-items-start items-start">
-            <li className="mr-4">Annual Yield</li>
+            <li className="mr-4">Attractive Yield</li>
 
             <li className="flex md:items-center items-start mr-4">
               <span className="mr-[10px] text-[1em] leading-none">•</span>
-              Borrow Against Your Treasury
+              Flexible Credit
             </li>
 
             <li className="flex md:items-center items-start mr-4">

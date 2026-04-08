@@ -6,7 +6,7 @@ export default function WhyBitcoinSection() {
       icon: "/images/simplified.svg",
       title: "Simplified Treasury Conversions",
       description:
-        "Allocate a portion of your treasury to USD-pegged stablecoins. A liquid, safe digital dollar equivalent that retains value and supports yield generation.",
+        "Seamlessly allocate a portion of your treasury to yield generating assets. Earn attractive returns while maintaining liquidity and control over your capital.",
     },
     {
       icon: "/images/earn.svg",
@@ -16,7 +16,7 @@ export default function WhyBitcoinSection() {
     },
     {
       icon: "/images/borrow.svg",
-      title: "Borrow Against Your Holdings",
+      title: "Access to affordable credit",
       description:
         "Access liquidity by borrowing against your treasury reserve, unlocking capital for operations or strategic initiatives while keeping your reserve intact.",
     },

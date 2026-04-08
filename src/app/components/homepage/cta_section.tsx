@@ -16,10 +16,10 @@ export default function CTASection() {
                 Join the forward-thinking companies globally who have a digital
                 treasury reserve.
               </h2>
-              <p className="md:text-[18px] text-[28px] md:max-w-[60%] max-w-[80%] m-auto text-white mb-8 leading-relaxed">
+              {/* <p className="md:text-[18px] text-[28px] md:max-w-[60%] max-w-[80%] m-auto text-white mb-8 leading-relaxed">
                 Diversify your corporate treasury with an asset that hedges
                 against depreciation and drives long-term value.
-              </p>
+              </p> */}
               <Button
                 onClick={openModal}
                 text="Book a consultation"

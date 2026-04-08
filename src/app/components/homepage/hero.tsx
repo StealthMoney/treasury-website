@@ -11,15 +11,7 @@ export default function Hero() {
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
           <h1 className="leading-[1.2] font-bold text-[44px] text-white font-montserrat! text-center">
-            <span className="inline">Every smart </span>
-
-            <span className="text-animator-wrapper">
-              <span className="text-animator">
-                <span className="text-animator__sizer">company</span>
-              </span>
-            </span>
-
-            <span className="ok">needs a modern treasury strategy.</span>
+            Modern treasury infrastructure for companies & businesses.
           </h1>
         </div>
 
