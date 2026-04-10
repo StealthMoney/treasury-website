@@ -18,7 +18,7 @@ export default function WhyBitcoinSection() {
       icon: "/images/borrow.svg",
       title: "Access to affordable credit",
       description:
-        "Access liquidity by borrowing against your treasury reserve, unlocking capital for operations or strategic initiatives while keeping your reserve intact.",
+        "Unlock flexible financing tied to your receivables, so you can keep growing without cashflow bottlenecks. Convert your unpaid invoices into instant working capital.",
     },
     {
       icon: "/images/real.svg",

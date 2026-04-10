@@ -324,7 +324,7 @@ body {
 }
 
 .background-image {
-  background: url("/images/office-hero.webp") no-repeat center/cover;
+  background: url("/images/warehouse.svg") no-repeat center/cover;
   width: 100vw;
   min-height: 100vh;
 }
