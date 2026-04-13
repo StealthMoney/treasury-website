@@ -1,6 +1,5 @@
 "use client";
 import Button from "../reusables/button";
-import { consultationRedirect } from "../reusables/functions";
 import { useConsultationModal } from "../reusables/context/consultation";
 
 export default function Hero() {
@@ -10,7 +9,7 @@ export default function Hero() {
     <div className="px-6 w-full flex justify-center items-center mt-12 md:mt-20">
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
-          <h1 className="leading-[1.2] font-bold text-[44px] text-white font-montserrat! text-center">
+          <h1 className="leading-[1.2] font-bold text-[44px] text-white font-tt! text-center">
             Modern treasury infrastructure for companies & businesses.
           </h1>
         </div>

@@ -233,7 +233,7 @@ export function ConsultationModal() {
                     transition={{ delay: 0.6, duration: 0.3 }}
                     className="text-center mb-8"
                   >
-                    <h2 className="text-2xl font-montserrat font-bold text-gray-900 mb-2">
+                    <h2 className="text-2xl font-tt font-bold text-gray-900 mb-2">
                       Consultation Successfully Booked
                     </h2>
                     <p className="text-gray-600 text-sm font-dmSans">

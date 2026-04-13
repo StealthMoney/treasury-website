@@ -29,7 +29,7 @@ export function FAQComponent({
   return (
     <div className="w-full max-w-[90%] mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h1 className="text-[20px] md:text-[40px] text-[var(--color-dark)] font-bold mb-4 text-balance font-montserrat!">
+        <h1 className="text-[20px] md:text-[40px] text-[var(--color-dark)] font-bold mb-4 text-balance font-tt!">
           {title}
         </h1>
         <p className="text-[14px] md:text-[20px] text-[var(--color-gray2)] text-balance">
@@ -52,7 +52,7 @@ export function FAQComponent({
                   <Plus className="w-5 h-5 text-foreground flex-shrink-0 group-hover:opacity-70 transition-opacity" />
                 )}
 
-                <span className="text-[16px] md:text-[20px] font-montserrat! font-semibold text-[var(--color-dark)] text-left">
+                <span className="text-[16px] md:text-[20px] font-tt! font-semibold text-[var(--color-dark)] text-left">
                   {item.question}
                 </span>
               </Collapsible.Trigger>
