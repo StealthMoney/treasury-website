@@ -1,6 +1,5 @@
 "use client";
 import Button from "../reusables/button";
-import { consultationRedirect } from "../reusables/functions";
 import { useConsultationModal } from "../reusables/context/consultation";
 
 export default function CTASection() {
@@ -12,7 +11,7 @@ export default function CTASection() {
         <section className="bg14 w-full h-full overflow-y-hidden">
           <div className=" mx-auto rounded-4xl md:px-8 px-4 text-center relative overflow-hidden md:py-12 py-6 bg-[#5e5e5e]/60">
             <div className="relative z-10 md:max-w-[85%] mx-auto">
-              <h2 className="text-[24px] md:text-[32px] lg:text-5xl font-bold text-white mb-6 leading-tight font-montserrat">
+              <h2 className="text-[24px] md:text-[32px] lg:text-5xl font-bold text-white mb-6 leading-tight font-tt">
                 Join the forward-thinking companies globally who have a digital
                 treasury reserve.
               </h2>

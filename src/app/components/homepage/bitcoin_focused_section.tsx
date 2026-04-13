@@ -1,12 +1,12 @@
 export default function BitcoinFocusedSection() {
   return (
     <section className="w-full flex justify-center items-center my-[100px]">
-      <section className="bg-[#B1E9E6] max-w-[95%] rounded-4xl">
+      <section className="bg-[#cbcccb] max-w-[95%] rounded-4xl">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 bg14 rounded-4xl flex justify-center flex-col items-center gap-y-12">
-          <h1 className="font-montserrat md:text-[32px] text-[24px] font-[600]">
+          <h1 className="font-tt md:text-[32px] text-[24px] font-[600]">
             STEALTH TREASURY STACK
           </h1>
-          <ul className="flex max-2xl:whitespace-nowrap max-xl:whitespace-pre-wrap md:text-[20px] text-[10px] font-montserrat font-[600] m-0 p-0 justify-items-start items-start">
+          <ul className="flex max-2xl:whitespace-nowrap max-xl:whitespace-pre-wrap md:text-[20px] text-[10px] font-tt font-[600] m-0 p-0 justify-items-start items-start">
             <li className="mr-4">Attractive Yield</li>
 
             <li className="flex md:items-center items-start mr-4">

@@ -4,7 +4,6 @@ import Link from "next/link";
 import Button from "./button";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { consultationRedirect } from "./functions";
 import { useConsultationModal } from "./context/consultation";
 
 export default function Navigation() {
