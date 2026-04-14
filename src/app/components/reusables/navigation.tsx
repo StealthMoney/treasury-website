@@ -25,9 +25,18 @@ export default function Navigation() {
   }, [isMobileMenuOpen]);
 
   const navLinks = [
-    { href: "#", label: "Solutions" },
-    { href: "#", label: "About" },
-    { href: "https://education.stealth.money/", label: "Resources" },
+    { href: "#", label: "Solutions", target: "_self" },
+    { href: "#", label: "About", target: "_self" },
+    {
+      href: "https://education.stealth.money/",
+      label: "Resources",
+      target: "_blank",
+    },
+    {
+      href: "https://app.stealthtreasury.com/",
+      label: "Get Started",
+      target: "_blank",
+    },
   ];
 
   const handleNavClick = () => {
@@ -53,11 +62,7 @@ export default function Navigation() {
                 <Link
                   key={index}
                   href={link.href}
-                  target={
-                    link.href === "https://education.stealth.money/"
-                      ? "_blank"
-                      : "_self"
-                  }
+                  target={link.target}
                   className="text-white hover:text-white/80 transition-colors text-sm font-medium"
                 >
                   {link.label}
@@ -122,6 +127,7 @@ export default function Navigation() {
             {/* Mobile Navigation Links */}
             {navLinks.map((link, index) => (
               <Link
+                target={link.target}
                 key={index}
                 href={link.href}
                 onClick={handleNavClick}
