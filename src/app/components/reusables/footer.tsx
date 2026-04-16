@@ -76,15 +76,15 @@ export default function Footer() {
 
           <div className="flex gap-4">
             <Link
-              href="https://www.stealth.money/terms-of-service"
-              target="_self"
+              href="/terms_of_use"
+              target="_blank"
               className="text-xs text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Terms & Service
             </Link>
             <Link
-              href="https://www.stealth.money/privacy-policy"
-              target="_self"
+              href="/privacy_policy"
+              target="_blank"
               className="text-xs text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
             >
               Privacy Policy

@@ -34,13 +34,13 @@ export function ConsultationModal() {
   });
 
   const [recaptchaError, setRecaptchaError] = React.useState<string | null>(
-    null
+    null,
   );
 
   const [error, setError] = React.useState<string | null>(null);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -66,9 +66,6 @@ export function ConsultationModal() {
     }
     if (!formData.companyRep.trim()) {
       errors.companyRep = "Company rep name is required";
-    }
-    if (!formData.repPosition.trim()) {
-      errors.repPosition = "Rep position is required";
     }
 
     setFieldErrors(errors);
@@ -145,7 +142,7 @@ export function ConsultationModal() {
     } catch (error) {
       console.error("Error:", error);
       setError(
-        "An error occurred while processing your request. Please try again."
+        "An error occurred while processing your request. Please try again.",
       );
     } finally {
       setSubmitting(false);
@@ -309,7 +306,7 @@ export function ConsultationModal() {
                         <input
                           type="text"
                           name="companyRep"
-                          placeholder="Company Rep*"
+                          placeholder="Company Rep Name*"
                           value={formData.companyRep}
                           onChange={handleChange}
                           className={`w-full px-4 py-3 bg-[#E6E6E6] border-0 text-sm text-gray-900 placeholder-[#707070] focus:bg-white transition-colors ${

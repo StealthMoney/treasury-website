@@ -8,7 +8,6 @@ import { useConsultationModal } from "./context/consultation";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { openModal } = useConsultationModal();
 
   const path = usePathname();
 
@@ -30,11 +29,6 @@ export default function Navigation() {
     {
       href: "https://education.stealth.money/",
       label: "Resources",
-      target: "_blank",
-    },
-    {
-      href: "https://app.stealthtreasury.com/",
-      label: "Get Started",
       target: "_blank",
     },
   ];
@@ -72,8 +66,10 @@ export default function Navigation() {
 
             <div className="hidden md:block">
               <Button
-                onClick={openModal}
-                text="Talk to us"
+                onClick={() =>
+                  window.open("https://app.stealthtreasury.com", "_blank")
+                }
+                text="Get Started"
                 type="button"
                 className={`text-white px-6 py-2.5 border border-[#FDE3C4] font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
               />
@@ -143,8 +139,10 @@ export default function Navigation() {
 
             <div className="mt-8">
               <Button
-                onClick={openModal}
-                text="Talk to us"
+                onClick={() =>
+                  window.open("https://app.stealthtreasury.com", "_blank")
+                }
+                text="Get Started"
                 type="button"
                 className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-[#FDE3C4] font-medium transition-colors`}
               />

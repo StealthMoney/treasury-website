@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="w-full mt-8">
           <Button
             onClick={openModal}
-            text="Book a Call"
+            text="Book A Call"
             className="p-4 text-[var(--color-background)] border border-[#FDE3C4] bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
             type="button"
           />
