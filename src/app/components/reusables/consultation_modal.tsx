@@ -325,7 +325,7 @@ export function ConsultationModal() {
                         <input
                           type="text"
                           name="repPosition"
-                          placeholder="Rep position*"
+                          placeholder="Rep position"
                           value={formData.repPosition}
                           onChange={handleChange}
                           className={`w-full px-4 py-3 bg-[#E6E6E6] border-0 text-sm text-gray-900 placeholder-[#707070] focus:bg-white transition-colors ${
