@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="lg:w-[70%] md:w-[90%] w-full flex flex-col justify-center items-center gap-[20px] text-center">
         <div>
           <h1 className="leading-[1.2] font-bold text-[44px] text-white font-tt! text-center">
-            Modern treasury infrastructure for companies & businesses.
+            Modern liquidity and treasury infrastructure for businesses
           </h1>
         </div>
 
