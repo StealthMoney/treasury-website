@@ -4,19 +4,19 @@ export default function WhyBitcoinSection() {
   const features = [
     {
       icon: "/images/simplified.svg",
-      title: "Inventory financing",
+      title: "Inventory Financing",
       description:
         "Access upfront capital to restock inventory and meet customer demand without waiting for payments. Stay ahead of supply needs and avoid missed sales opportunities.",
     },
     {
       icon: "/images/earn.svg",
-      title: "Payroll & operations",
+      title: "Payroll & Operations",
       description:
         "Keep your business running without disruption by unlocking cash tied up in unpaid invoices. Ensure salaries, rent, and day-to-day expenses are covered on time.",
     },
     {
       icon: "/images/borrow.svg",
-      title: "Supplier payments",
+      title: "Supplier Payments",
       description:
         "Pay suppliers on time and strengthen your relationships without straining your cash flow. Take advantage of early payment terms and better pricing.",
     },
