@@ -18,7 +18,7 @@ export default function Hero() {
           <Button
             onClick={openModal}
             text="Book A Call"
-            className="p-4 text-[var(--color-background)] border border-[#FDE3C4] bg-[var(--color-primary)] cursor-pointer md:w-auto w-full"
+            className="p-4 text-[var(--color-background)] border bg-[var(--color-primary)] cursor-pointer md:w-auto w-full hover:bg-[var(--color-gray2)]/65"
             type="button"
           />
         </div>

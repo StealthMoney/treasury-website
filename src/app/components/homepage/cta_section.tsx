@@ -24,7 +24,7 @@ export default function CTASection() {
                 onClick={() => window.open("/join_waitlist", "_blank")}
                 text="Join Waitlist"
                 type="button"
-                className="bg-[var(--color-primary)] text-white px-8 py-3.5 border border-[#FDE3C4] cursor-pointer font-medium transition-colors text-lg md:w-auto w-full"
+                className="bg-[var(--color-primary)] text-white px-8 py-3.5 border cursor-pointer transition-colors text-lg md:w-auto w-full hover:bg-[var(--color-gray2)]/65"
               />
             </div>
           </div>

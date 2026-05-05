@@ -71,7 +71,7 @@ export default function Navigation() {
                 }
                 text="Get Started"
                 type="button"
-                className={`text-white px-6 py-2.5 border border-[#FDE3C4] font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"}`}
+                className={`text-white px-6 py-2.5 border font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"} hover:bg-[var(--color-gray2)]/65`}
               />
             </div>
 

@@ -54,6 +54,7 @@ export default function WaitlistSidebar({
   const handleReset = () => {
     setFieldErrors({});
     setSubmitted(false);
+    setError(null);
     setForm((prev) => ({
       ...prev,
       firstName: "",
@@ -232,7 +233,7 @@ export default function WaitlistSidebar({
                     </label>
                     <input
                       className={inputClass}
-                      placeholder="e.g., John"
+                      placeholder="e.g. John"
                       value={form.firstName}
                       onChange={(e) => {
                         setForm({ ...form, firstName: e.target.value });
@@ -258,7 +259,7 @@ export default function WaitlistSidebar({
                     </label>
                     <input
                       className={inputClass}
-                      placeholder="e.g., Doe"
+                      placeholder="e.g. Doe"
                       value={form.lastName}
                       onChange={(e) => {
                         setForm({ ...form, lastName: e.target.value });
@@ -286,7 +287,7 @@ export default function WaitlistSidebar({
                   </label>
                   <input
                     className={inputClass}
-                    placeholder="e.g., Moniewave"
+                    placeholder="e.g. Goldharvest Supply Ltd"
                     value={form.businessName}
                     onChange={(e) => {
                       setForm({ ...form, businessName: e.target.value });
@@ -314,7 +315,7 @@ export default function WaitlistSidebar({
                   <input
                     className={inputClass}
                     type="email"
-                    placeholder="e.g., moniewave@gmail.com"
+                    placeholder="e.g. goldharvestsupply@gmail.com"
                     value={form.businessEmail}
                     onChange={(e) => {
                       setForm({ ...form, businessEmail: e.target.value });
