@@ -4,27 +4,27 @@ export default function WhyBitcoinSection() {
   const features = [
     {
       icon: "/images/simplified.svg",
-      title: "Simplified Treasury Conversions",
+      title: "Inventory financing",
       description:
-        "Seamlessly allocate a portion of your treasury to yield generating assets. Earn attractive returns while maintaining liquidity and control over your capital.",
+        "Access upfront capital to restock inventory and meet customer demand without waiting for payments. Stay ahead of supply needs and avoid missed sales opportunities.",
     },
     {
       icon: "/images/earn.svg",
-      title: "Earn Predictable Yield",
+      title: "Payroll & operations",
       description:
-        "Stealth Treasury deploys your treasury into regulated, secured yield opportunities where companies can generate yield on their idle cash.",
+        "Keep your business running without disruption by unlocking cash tied up in unpaid invoices. Ensure salaries, rent, and day-to-day expenses are covered on time.",
     },
     {
       icon: "/images/borrow.svg",
-      title: "Access to affordable credit",
+      title: "Supplier payments",
       description:
-        "Unlock flexible financing tied to your receivables, so you can keep growing without cashflow bottlenecks. Convert your unpaid invoices into instant working capital.",
+        "Pay suppliers on time and strengthen your relationships without straining your cash flow. Take advantage of early payment terms and better pricing.",
     },
     {
       icon: "/images/real.svg",
-      title: "Real-Time Reporting & Treasury Tools",
+      title: "Advanced Receivables",
       description:
-        "Manage risk, monitor performance, and stay audit-ready with a transparent suite of treasury dashboards. Our easy to use and intuitive dashboards provide simple reports.",
+        "Turn predictable receivables into a flexible funding stream that scales with your revenue and grow your business.",
     },
   ];
 

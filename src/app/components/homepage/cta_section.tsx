@@ -21,8 +21,8 @@ export default function CTASection() {
                 scale your business.
               </p>
               <Button
-                onClick={openModal}
-                text="Book A Call"
+                onClick={() => window.open("/join_waitlist", "_blank")}
+                text="Join Waitlist"
                 type="button"
                 className="bg-[var(--color-primary)] text-white px-8 py-3.5 border border-[#FDE3C4] cursor-pointer font-medium transition-colors text-lg md:w-auto w-full"
               />

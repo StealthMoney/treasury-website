@@ -15,7 +15,7 @@ export default function Index() {
         <Navigation />
         <Hero />
       </section>
-      <BitcoinFocusedSection />
+      {/* <BitcoinFocusedSection /> */}
       <WhyBitcoinSection />
       <UnlockLiquiditySection />
       <Backed_by />
