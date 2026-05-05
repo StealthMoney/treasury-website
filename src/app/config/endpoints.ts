@@ -14,9 +14,11 @@ const endpoints = (params?: string | number) => {
   const baseUrl = env === "development" ? local : prod;
 
   const consultation = `${baseUrl}/consultation/book`;
+  const waitlist = `${baseUrl}/waitlists`;
 
   return {
     consultation,
+    waitlist,
   };
 };
 

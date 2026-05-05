@@ -22,6 +22,9 @@ export default function WaitlistSidebar({
     [key: string]: string;
   }>({});
 
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
   const validateForm = (): boolean => {
     const errors: { [key: string]: string } = {};
 
@@ -77,12 +80,36 @@ export default function WaitlistSidebar({
     };
   }, [open]);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const hasErrors = validateForm();
 
     if (hasErrors) return;
 
-    setSubmitted(true);
+    setLoading(true);
+
+    try {
+      const payload = { ...form };
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      let message;
+      if (!res.ok) {
+        const data = await res.json();
+        message = data.message || "Failed to add you to waitlist";
+        setError(message);
+      } else {
+        setSubmitted(true);
+        setError(null);
+      }
+    } catch (err) {
+      console.error("Something went wrong:", err);
+      setError(err instanceof Error ? err?.message : "Request failed");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const inputClass =
@@ -109,7 +136,7 @@ export default function WaitlistSidebar({
           {/* Close */}
           <button
             onClick={onClose}
-            className="absolute top-5 right-5 w-9 h-9 flex items-center justify-center rounded-lg border border-gray-200 text-gray-500 hover:bg-gray-50 hover:text-gray-800 transition-colors"
+            className="absolute top-5 right-5 w-9 h-9 flex items-center justify-center rounded-lg border border-gray-200 text-gray-500 hover:bg-gray-50 hover:text-gray-800 transition-colors cursor-pointer"
             aria-label="Close"
           >
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -307,14 +334,19 @@ export default function WaitlistSidebar({
                     </p>
                   )}
                 </div>
+
+                {error && (
+                  <p className="text-[#B31919] text-xs -mt-1">{error}</p>
+                )}
               </div>
 
               <div className="mt-10">
                 <button
+                  disabled={loading}
                   onClick={handleSubmit}
-                  className="w-full py-4 bg-[#090909] cursor-pointer text-white text-sm font-medium rounded-xl active:scale-[0.99] transition-all duration-150"
+                  className={`w-full py-4 ${loading ? "cursor-not-allowed bg-[#090909]/20" : "cursor-pointer bg-[#090909]"} text-white text-sm font-medium rounded-xl active:scale-[0.99] transition-all duration-150`}
                 >
-                  Get early access
+                  {loading ? "Submitting..." : "Get early access"}
                 </button>
               </div>
             </>

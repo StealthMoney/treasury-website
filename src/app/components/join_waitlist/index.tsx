@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import WaitlistSidebar from "./sidebar";
-import CountdownDisplay from "./countdown";
 
 export default function WaitlistPage({
   launchDays = 85,
@@ -19,7 +18,6 @@ export default function WaitlistPage({
         <Link href="/" className="flex items-center gap-2">
           <Image src="/stealth_logo1.png" alt="logo" width={100} height={100} />
         </Link>
-        <CountdownDisplay daysFromNow={launchDays} />
       </header>
 
       <main className="flex flex-col items-center px-4 sm:px-8 pt-6 pb-20">
