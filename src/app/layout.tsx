@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "Stealth Treasury | Modern treasury infrastructure for companies & businesses.",
+    "Stealth Treasury | Modern liquidity and treasury infrastructure for businesses.",
   description:
     "Stealth Treasury helps businesses securely hold and manage Company treasury using stealth custody technology. Build your company’s treasury with privacy and confidence.",
   keywords: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.stealthtreasury.com"),
   openGraph: {
     title:
-      "Stealth Treasury | Modern treasury infrastructure for companies & businesses.",
+      "Stealth Treasury | Modern liquidity and treasury infrastructure for businesses.",
     description:
       "Hold and manage Treasury with enterprise-level security and stealth custody. Protect your company's crypto assets with Stealth Treasury.",
     url: "https://www.stealthtreasury.com",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: "/images/office-hero.png",
         width: 1200,
         height: 630,
-        alt: "Stealth Treasury -  Modern treasury infrastructure for companies & businesses.",
+        alt: "Stealth Treasury -  Modern liquidity and treasury infrastructure for businesses.",
       },
     ],
     locale: "en_US",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Stealth Treasury |  Modern treasury infrastructure for companies & businesses.",
+      "Stealth Treasury |  Modern liquidity and treasury infrastructure for businesses.",
     description:
       "Stealth Treasury helps businesses hold and manage Your company Treasury with stealth custody solutions for maximum privacy and control.",
     images: ["/images/office-hero.png"],
