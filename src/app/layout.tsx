@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Stealth Treasury",
     images: [
       {
-        url: "/images/office-hero.png",
+        url: "/images/warehouse.png",
         width: 1200,
         height: 630,
         alt: "Stealth Treasury -  Modern liquidity and treasury infrastructure for businesses.",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       "Stealth Treasury |  Modern liquidity and treasury infrastructure for businesses.",
     description:
       "Stealth Treasury helps businesses hold and manage Your company Treasury with stealth custody solutions for maximum privacy and control.",
-    images: ["/images/office-hero.png"],
+    images: ["/images/warehouse.png"],
     creator: "@stealthmoney_",
   },
   icons: {
