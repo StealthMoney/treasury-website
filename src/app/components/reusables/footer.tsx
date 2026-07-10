@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row md:justify-between justify-center items-center md:items-center md:gap-8 gap-12 pt-8 border-t border-white/10">
           {/* Navigation Links */}
-          <div className="flex gap-8 font-neuehas">
+          {/* <div className="flex gap-8 font-neuehas">
             <Link
               href="#"
               className="text-sm text-[#C7C7C7] hover:text-[#C7C7C7]/20 transition-colors"
@@ -36,7 +36,7 @@ export default function Footer() {
             >
               Resources
             </Link>
-          </div>
+          </div> */}
 
           {/* Social Icons */}
           <div className="flex gap-4">

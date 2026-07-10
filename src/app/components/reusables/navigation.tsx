@@ -51,7 +51,7 @@ export default function Navigation() {
               />
             </Link>
 
-            <div className="hidden md:flex items-center gap-8">
+            {/* <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link, index) => (
                 <Link
                   key={index}
@@ -62,13 +62,11 @@ export default function Navigation() {
                   {link.label}
                 </Link>
               ))}
-            </div>
+            </div> */}
 
             <div className="hidden md:block">
               <Button
-                onClick={() =>
-                  window.open("https://app.stealthtreasury.com", "_blank")
-                }
+                onClick={() => window.open("/join_waitlist", "_blank")}
                 text="Get Started"
                 type="button"
                 className={`text-white px-6 py-2.5 border font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"} hover:bg-[var(--color-gray2)]/65`}
@@ -119,9 +117,9 @@ export default function Navigation() {
             isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="flex flex-col pt-24 px-6">
+          <div className="flex flex-col px-6">
             {/* Mobile Navigation Links */}
-            {navLinks.map((link, index) => (
+            {/* {navLinks.map((link, index) => (
               <Link
                 target={link.target}
                 key={index}
@@ -135,13 +133,11 @@ export default function Navigation() {
               >
                 {link.label}
               </Link>
-            ))}
+            ))} */}
 
             <div className="mt-8">
               <Button
-                onClick={() =>
-                  window.open("https://app.stealthtreasury.com", "_blank")
-                }
+                onClick={() => window.open("/join_waitlist", "_blank")}
                 text="Get Started"
                 type="button"
                 className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-[#FDE3C4] font-medium transition-colors`}
