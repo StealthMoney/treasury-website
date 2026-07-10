@@ -22,7 +22,7 @@ export default function CTASection() {
               </p>
               <Button
                 onClick={() => window.open("/join_waitlist", "_blank")}
-                text="Join Waitlist"
+                text="Get Early Access"
                 type="button"
                 className="bg-[var(--color-primary)] text-white px-8 py-3.5 border cursor-pointer transition-colors text-lg md:w-auto w-full hover:bg-[var(--color-gray2)]/65"
               />
