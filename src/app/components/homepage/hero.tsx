@@ -14,14 +14,15 @@ export default function Hero() {
           </h1>
         </div>
 
-        {/* <div className="w-full mt-8">
+        <div className="w-full mt-8">
           <Button
-            onClick={openModal}
-            text="Book A Call"
-            className="p-4 text-[var(--color-background)] border bg-[var(--color-primary)] cursor-pointer md:w-auto w-full hover:bg-[var(--color-gray2)]/65"
+            // onClick={openModal}
+            onClick={() => window.open("/join_waitlist", "_blank")}
+            text="Get Started"
+            className="p-4 text-[var(--color-background)] bg-[var(--color-primary)] cursor-pointer md:w-auto w-full rounded-full hover:bg-[var(--color-gray2)]/65"
             type="button"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
