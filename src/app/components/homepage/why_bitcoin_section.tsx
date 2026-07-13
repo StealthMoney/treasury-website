@@ -16,7 +16,7 @@ export default function WhyBitcoinSection() {
     },
     {
       icon: "/images/borrow.svg",
-      title: "Supplier Payments",
+      title: "Supply Chain Financing",
       description:
         "Pay suppliers on time and strengthen your relationships without straining your cash flow. Take advantage of early payment terms and better pricing.",
     },

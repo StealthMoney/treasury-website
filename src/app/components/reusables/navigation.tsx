@@ -64,16 +64,16 @@ export default function Navigation() {
               ))}
             </div> */}
 
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <Button
                 onClick={() => window.open("/join_waitlist", "_blank")}
                 text="Get Started"
                 type="button"
                 className={`text-white px-6 py-2.5 border font-medium transition-colors cursor-pointer ${"bg-[var(--color-primary)]"} hover:bg-[var(--color-gray2)]/65`}
               />
-            </div>
+            </div> */}
 
-            <button
+            {/* <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden z-50 w-10 h-10 flex flex-col items-center justify-center gap-1.5"
               aria-label="Toggle menu"
@@ -93,7 +93,7 @@ export default function Navigation() {
                   isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
                 }`}
               />
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>
@@ -135,14 +135,14 @@ export default function Navigation() {
               </Link>
             ))} */}
 
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <Button
                 onClick={() => window.open("/join_waitlist", "_blank")}
                 text="Get Started"
                 type="button"
                 className={`w-full ${"bg-[var(--color-primary)]"} text-white px-6 py-3 border border-[#FDE3C4] font-medium transition-colors`}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
